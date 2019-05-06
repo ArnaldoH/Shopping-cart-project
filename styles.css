@@ -1,0 +1,107 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/59/15/a9/5915a9aa901ce83c47944da314b26345.jpg");
+    background-size: 3%;
+}
+img {
+    margin-top:8px;
+    margin-bottom:8px;
+    width: 200px;
+    height: 200px;
+}
+.content {
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+    margin: 20px;
+    align-items:center;
+    padding: 20px;
+    background-color: gray;
+    border: 5px solid black;
+}
+.aighcool {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.imgtarget {
+    display:flex;
+    flex-direction: row;
+}
+.nametarget, .pricetarget {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+}
+.stuff {
+    color: green; 
+    font-size: 70px;
+}
+.name1 {
+    color: yellow;
+    font-size: 80px;
+}
+.name2 {
+    font-size: 40px;
+    color: red;
+}
+.shop {
+    font-size: 100px;
+    color: blue;
+}
+.random {
+    font-size: 200px;
+    color: purple;
+}
+input {
+    width: 200px;
+    height: 20px;
+    font-size:15px;
+    text-align:center;
+    border:none;
+    border-radius: 10px;
+}
+button {
+    border-radius: 20px;  
+}
+.gamer2 {
+    display:flex;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: space-around;
+    background-color: gray;
+    border: 5px solid black;
+    margin-top: 20px;
+    padding-top:0px;
+    padding: 20px;
+}
+.gamer{
+    display:flex;
+    justify-content: space-between;
+    background-color: gray;
+    border: 5px solid black;
+    margin-top: 20px;
+    padding-top:0px;
+    padding: 20px;
+}
+.banner2 {
+    text-decoration: underline;
+}
+.banner3 {
+    display:flex;   
+    justify-content: space-around;
+    background-color: gray;
+    border: 5px solid black;
+}
+.banner, .banner2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: gray;
+    border: 5px solid black;
+    font-family: 'Dokdo', cursive;
+}
+.item {
+    display:flex;
+    align-content: space-between;
+}
